@@ -11,7 +11,7 @@ export default function Counter(){
             <div className='flex gap-3'>
              <button onClick={()=>dispatch(increment())} className='bg-green-500 px-4 py-1 rounded'>+</button>
                  <button onClick={()=>dispatch(decrement())} className='bg-red-500 px-4 py-1 rounded'>-</button>
-            </div>
+            </div>      
         </div>
     );
 }
